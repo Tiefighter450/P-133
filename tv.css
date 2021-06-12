@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+  background: rgb(139,251,63);
+  background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+  background-position: center;
+  background-size: cover;
+}
+
+canvas {
+  display: block;
+}
+
+.heading {
+  width: 50%;
+  border-radius: 20px;
+  background: rgb(255,0,0);
+background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,72,0,1) 25%, rgba(255,128,0,1) 50%, rgba(244,147,0,1) 75%, rgba(255,196,0,1) 100%);
+}
+.objects, .status, .back {
+  width: fit-content;
+  border-radius: 10px;
+  background: rgb(255,0,50);
+  background: linear-gradient(180deg, rgba(255,0,50,1) 0%, rgba(255,0,103,1) 25%, rgba(255,0,160,1) 50%, rgba(255,0,210,1) 75%, rgba(235,0,255,1) 100%);
+}
